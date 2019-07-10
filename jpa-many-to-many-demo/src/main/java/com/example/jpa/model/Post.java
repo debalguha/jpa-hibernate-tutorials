@@ -52,9 +52,7 @@ public class Post {
     private Set<Tag> tags = new HashSet<>();
 
 
-    public Post() {
-
-    }
+    public Post() {}
 
     public Post(String title, String description, String content) {
         this.title = title;
